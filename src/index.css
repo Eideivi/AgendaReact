@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(240, 206, 15, 0.548);
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.Title{
+  font-size: 20px;
+  background-color: azure;
+  text-align: left;
+  padding: 25px;
+}
+.app-container h1{
+  margin-left: 370px;
+}
+
+.secondary-container{
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  float: left;
+}
+#divContact{
+  overflow-y: scroll;
+}
+
+.text-field {
+  width: 50%;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#button {
+  width: 50%;
+  height: 30px;
+  font-size: 20;
+}
+#button:hover{
+  cursor: pointer;
+  color: rgba(2, 2, 15, 0);
+}
+
+#form-container{
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
